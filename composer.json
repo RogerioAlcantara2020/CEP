@@ -1,0 +1,23 @@
+{
+    "name": "rogerio/digital-cep",
+    "description": "Busca CEP online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rogerio Alcantara",
+            "email": "carpe@carpetecnologia.com.br"
+        }
+    ],
+    "require": {
+        "php":">=7.1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "rogerio\\DigitalCep\\": "src/"
+        }
+    }
+}
